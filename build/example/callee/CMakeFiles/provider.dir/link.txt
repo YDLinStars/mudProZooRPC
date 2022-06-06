@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11 -O3 -g   CMakeFiles/provider.dir/friendservice.cc.o CMakeFiles/provider.dir/__/friend.pb.cc.o  -o ../../../bin/provider  -L/home/ydlin/Desktop/mprpc/lib -rdynamic ../../../lib/libmprpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt -Wl,-rpath,/home/ydlin/Desktop/mprpc/lib 

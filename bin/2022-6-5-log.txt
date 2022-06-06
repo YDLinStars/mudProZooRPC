@@ -1,0 +1,8 @@
+1:32:5 =>[error] first log message!
+1:32:5 =>[error] /home/ydlin/Desktop/mprpc/example/callee/friendservice.cc:main:45
+1:32:5 =>[info] service_name:FriendServiceRpc
+1:32:5 =>[info] method_name:GetFriendsList
+19:5:1 =>[error] first log message!
+19:5:1 =>[error] /home/ydlin/Desktop/mprpc/example/callee/friendservice.cc:main:45
+19:5:1 =>[info] service_name:FriendServiceRpc
+19:5:1 =>[info] method_name:GetFriendsList

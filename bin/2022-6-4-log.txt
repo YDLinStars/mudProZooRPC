@@ -1,0 +1,5 @@
+18:19:14 =>[info] service_name:UserServiceRpc
+18:19:14 =>[info] method_name:Login
+18:19:14 =>[info] method_name:Register
+20:6:46 =>[info] service_name:FriendServiceRpc
+20:6:46 =>[info] method_name:GetFriendsList
