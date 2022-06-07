@@ -31,7 +31,7 @@ autobuild.sh 一键编译脚本
 
 # 3 启动项目
 
-## 环境说明
+## 3.1 环境说明
 
 - `ubuntu16.04` 以上(建议使用`Ubuntu18`)。
 - `gcc 5.4.0` (建议安装7.0以上的，默认支持c++11)
@@ -39,7 +39,7 @@ autobuild.sh 一键编译脚本
 - `protobuf 3.2.0`
 - `cmake 3.5.1`
 
-## 安装依赖库
+## 3.2 安装依赖库
 
 #### 安装依赖库
 
@@ -48,7 +48,7 @@ autobuild.sh 一键编译脚本
 - [muduo](https://github.com/chenshuo/muduo)
 - [cmake](https://github.com/Kitware/CMake)
 
-## 编译
+## 3.3 编译
 
 ```
 ./autobuild.sh
@@ -56,16 +56,26 @@ autobuild.sh 一键编译脚本
 
 ![image-20220607235307260](https://ydlin.oss-cn-guangzhou.aliyuncs.com/blog-img/image-20220607235307260.png)
 
-运行：
+## 3.4 运行
 
 启动zookeeper配置中心
 
 ```
-cd ./bin/
-
+./zkServer.sh start
 ```
 
+启动成功：
+![image-20220607235936664](https://ydlin.oss-cn-guangzhou.aliyuncs.com/blog-img/image-20220607235936664.png)
 
+测试服务
+
+```
+cd ./bin/
+./provider -i test.conf
+./consumer -i test.conf
+```
+
+![image-20220608000151293](https://ydlin.oss-cn-guangzhou.aliyuncs.com/blog-img/image-20220608000151293.png)
 
 # 4 关键设计
 
